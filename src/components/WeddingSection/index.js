@@ -2,21 +2,9 @@ import React, { Fragment } from 'react';
 import { bool } from 'prop-types';
 
 import WeddingInfoBox from './WeddingInfoBox';
-import ButtonLive from './ButtonLive';
 import { styWrapper } from './styles';
 
 function WeddingSection({ isInvitation }) {
-  const renderGuestInfo = () => {
-    return (
-      <Fragment>
-        <div className="col-md-8 col-md-offset-4">
-          <WeddingInfoBox title="Akad Nikah" time="08.00 WIB (Live di Instagram)" date="Sabtu, 03 Oktober 2020" />
-        </div>
-        <ButtonLive />
-      </Fragment>
-    );
-  };
-
   return (
     <Fragment>
       <div id="fh5co-event" css={styWrapper}>
@@ -24,29 +12,24 @@ function WeddingSection({ isInvitation }) {
         <div className="container">
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
-              <span className="bismillah">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيم</span>
-              <h2 className="main-font main-font__wedding">Akad Nikah dan Syukuran Pernikahan</h2>
-              <span className="sub-title sub-title__wedding">Insha Allah akan diselenggarakan pada:</span>
+              <h2 className="main-font main-font__wedding">Lễ kết hôn và tiệc cưới</h2>
             </div>
           </div>
           <div className="row">
-            {!isInvitation && renderGuestInfo()}
-            {isInvitation && (
               <div className="col-md-10 col-md-offset-1">
                 <WeddingInfoBox
-                  title="Akad Nikah"
-                  time="Akan dilaksanakan pagi hari "
-                  date="Sabtu, 03 Oktober 2020"
-                  description="Orange Ballroom <br/>HARRIS Hotel Sentraland, Semarang"
+                  title="Nhà gái"
+                  time="Sáng thứ 7 vào lúc 11 giờ"
+                  date="Thứ 7, ngày 20 tháng 5"
+                  description="Trung tâm tiệc cưới Giang Thanh <br/>Số 1 Thiên Lôi, Đằng Giang, Ngô Quyền, TP Hải Phòng"
                 />
                 <WeddingInfoBox
-                  title="Syukuran Pernikahan"
-                  time="Sesuai jadwal undangan di e-ticket "
-                  date="Sabtu, 03 Oktober 2020"
-                  description="Orange Ballroom <br/>HARRIS Hotel Sentraland, Semarang"
+                  title="Nhà trai"
+                  time="Chiều Chủ nhật vào lúc 15:00"
+                  date="Chủ nhật, ngày 28 tháng 5"
+                  description="Tư gia nhà trai <br/>Trại Lớn, Tam Hồng, Yên Lạc, Vĩnh Phúc"
                 />
               </div>
-            )}
           </div>
         </div>
       </div>
