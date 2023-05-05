@@ -9,42 +9,28 @@ export const stories = [
     title: 'Lần đầu gặp gỡ',
     date: '07/03/2022',
     description:
-      'Lần đầu gặp nhau là khi người ấy vào làm tại TDT Asia, tôi như bị sét đánh vì vẻ đẹp dịu dàng duyên dáng ấy, tôi thầm nghĩ sẽ phải lấy người ấy cho bằng được hehe =)))',
+      'Lần đầu chúng mình gặp nhau là ngày đầu tiên làm việc tại TDT Asian của Nàng. Chàng đã bị thu hút ngay từ cái nhìn đầu tiên bởi vẻ đẹp dịu dàng, duyên dáng của Nàng. Ông Tơ bà Nguyệt thật khéo an bài khi Nàng được sắp xếp làm chung dự án với Chàng.',
     image: '',
   },
   {
-    title: 'Lần đi chơi riêng đầu tiên',
-    date: '02/04/2022',
+    title: 'Ngày chính thức nên duyên',
+    date: '10/04/2022',
     description:
-      'Chúng tôi rủ nhau đi bắn cung tại Long Biên. Vì cô ấy khá thích những trò chơi mạo hiểm nên cũng khá hứng thú.Cô ấy nói muốn rủ thêm bạn nhưng bằng mọi cách tôi cố gắng thuyết phục rằng chỉ đi chơi 2 người thì niềm vui mới trọn vẹn được ;)',
+      'Từ những trao đổi trong công việc, bọn mình dần trở nên thân thiết bởi những sở thích, thói quen chung. Tuy thời gian tiếp xúc không dài nhưng bọn mình đã nhận ra rằng đối phương chính là mảnh ghép còn thiếu của đời mình. Và rồi vào một ngày đẹp trời Huyn chính thức ngỏ lời yêu...',
     image: ImgKembaliBerjumpa,
   },
   {
-    title: 'Những lần đi chơi tiếp theo',
-    date: '03/04/2021 - 10/04/2022',
+    title: 'Lời cầu hôn',
+    date: '20/10/2022',
     description:
-      'Đi ăn lẩu băng chuyền \n - Đi xem áo cho trẻ con\n - Đi xem phim cùng nhóm công ty \n - Đi xem phim riêng',
+      'Trong những ngày tháng cùng nhau trải qua tất cả cung bậc cảm xúc của tình yêu, bọn mình đã trở thành những phiên bản tốt hơn, tuyệt vời hơn khi ở bên nhau. Vào ngày sinh nhật của Nàng, dưới ánh nến lung linh Chàng đã ngỏ lời cầu hôn và nhận được câu trả lời khiến hạnh phúc vỡ òa: Em đồng ý',
     image: ImgJakartaKroasia,
   },
   {
-    title: 'Jakarta & Kroasia',
-    date: '2018 - 2019',
+    title: 'Chúng mình đang rất hạnh phúc cùng nhau chuẩn bị cho hôn lễ.',
+    date: '',
     description:
-      'Tidak selalu bersama, perjuangan dimulai ketika Indra memutuskan untuk bekerja di Jakarta sebagai seorang Software Engineer di Tokopedia. Belum usai masa LDR, pada 3 Oktober 2018, Dinda juga memutuskan untuk mengambil beasiswa di University of Split, Kroasia. Di bulan November 2018, Indra melangsungkan wisuda dan Dinda hanya bisa memberi virtual support melalui video call. ',
+      'Tương lai dù thành công hay thất bại, dù vui vẻ hay khổ đau, chúng mình cũng nguyện nắm tay nhau cùng nhau đồng hành. Tương lai sẽ thật đẹp bởi tương lai chúng ta có nhau...',
     image: ImgBoarding,
-  },
-  {
-    title: 'Kembali ke Indonesia',
-    date: '3 Maret 2019',
-    description:
-      'Periode belajar di Kroasia telah selesai. Akhirnya Dinda kembali ke Indonesia! Ada tanggung jawab yang harus Dinda selesaikan seusai dari Kroasia, yakni harus menyelesaikan skripsi dan mencapai target untuk wisuda di bulan Agustus 2019. Selain itu, kembalinya Dinda ke Indonesia menjadi momen yang tepat bagi Indra untuk menyampaikan niat ingin serius kepada orang tua Dinda. Hal itu disambut baik oleh kedua orang tua mereka  dan sepakat akan melaksanakan acara Ndodok Lawang usai Dinda wisuda. Sebelum wisuda, Dinda sudah harus meniti karir di Jakarta sebagai seorang Content Analyst di Ruangguru.',
-    image: ImgKembaliKeIndonesia,
-  },
-  {
-    title: 'Ndodok Lawang',
-    date: '31 Agustus 2019',
-    description:
-      'Akhirnya tiba di masa Indra dan keluarga hadir ke rumah Dinda untuk menyampaikan niat baik. Mulai dari acara Ndodok Lawang ini, dilanjutkan dengan persiapan pernikahan yang insha Allah akan diselenggarakan pada tanggal 3 Oktober 2020.',
-    image: ImgNdodokLawang,
   },
 ];
