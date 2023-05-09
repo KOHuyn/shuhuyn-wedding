@@ -36,7 +36,7 @@ function FloatingMusic() {
             src={play ? IconMusic : IconMusicStop}
             className="icon-music"
             alt="icon-music"
-            title={`${play ? 'Matikan Musik' : 'Putar Musik'}`}
+            title={`${play ? 'Tắt nhạc' : 'Chơi nhạc'}`}
           />
         </div>
       </div>
