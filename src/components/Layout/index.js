@@ -8,29 +8,28 @@ import '@assets/css/bootstrap.css';
 import '@assets/css/style.css';
 
 const IMAGE_URL = `https://thekusuma.com/static/slide-6-4715e29302dbaa2ba21494c6258298d4.jpg`;
-const META_DESCRIPTION = `Dengan memohon Rahmat dan Ridho Illahi, teriring niat menjalankan Sunnah Rasulullah ﷺ untuk membentuk rumah tangga yang Sakinah, Mawaddah wa Rahmah, kami mohon do'a agar senantiasa diberikan kelancaran dan keberkahan. - Dinda & Indra`;
+const META_DESCRIPTION = `Tình yêu là một chuyến đi không có điểm đến, nhưng điều quan trọng nhất là ta có người đồng hành cùng mình trên con đường đó. Nếu ta tìm được người đó, ta sẽ thấy tình yêu thật đẹp và ý nghĩa, và cảm thấy hạnh phúc nhất đời.`;
 
 function MainLayout({ children }) {
   return (
     <Fragment>
       <Helmet>
-        <title>Dinda ❤️ Indra Wedding</title>
+        <title>Quang Huy ❤️ Thu Hồng Wedding</title>
 
         {/* Favicon */}
         <link rel="icon" type="image/png" href={Favicon} />
 
         {/* font and SEO tags */}
-        <meta property="og:title" content="The Wedding of Dinda & Indra" />
+        <meta property="og:title" content="The Wedding of Quang Huy & Thu Hồng" />
         <meta property="og:image" content={IMAGE_URL} />
-        <meta property="og:url" content="https://thekusuma.com" />
-        <meta property="og:site_name" content="The Wedding of Dinda & Indra" />
+        <meta property="og:url" content="https://shuhuyn-wedding.site" />
+        <meta property="og:site_name" content="The Wedding of Quang Huy & Thu Hồng" />
         <meta property="og:description" content={META_DESCRIPTION} />
-        <meta name="twitter:title" content="The Wedding of Dinda & Indra" />
+        <meta name="twitter:title" content="The Wedding of Quang Huy & Thu Hồng" />
         <meta name="twitter:description" content={META_DESCRIPTION} />
         <meta name="twitter:image" content={IMAGE_URL} />
-        <meta name="twitter:url" content="https://thekusuma.com" />
+        <meta name="twitter:url" content="https://shuhuyn-wedding.site" />
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:creator" content="@idindrakusuma" />
 
         <link
           href="https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700"

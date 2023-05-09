@@ -6,8 +6,7 @@ import Groom from '@assets/images/p-indra.jpg';
 
 import { styWrapper } from './styles';
 
-function HelloSection({ isInvitation }) {
-  const finalSubtitle = isInvitation ? 'Thứ 7 ngày 20 tháng 5, trung tâm tổ chức sự kiện Giang Thanh, Hải Phòng' : 'Thứ 7 ngày 20 tháng 5';
+function HelloSection() {
 
   return (
     <Fragment>
@@ -16,7 +15,6 @@ function HelloSection({ isInvitation }) {
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
               <h2 className="main-font">Hello my friend</h2>
-              <h3 className="sub-title hs">{finalSubtitle}</h3>
               <p className="info">
               Chúc bạn luôn được mạnh khỏe, hạnh phúc và thành công trong mọi lĩnh vực cuộc sống.<br/>
               Hy vọng bạn sẽ luôn tìm thấy niềm vui và ý nghĩa trong cuộc sống của mình.<br/>

@@ -4,20 +4,6 @@ import 'react-image-gallery/styles/css/image-gallery.css';
 import { photos } from './photo-data';
 
 function PhotoSection() {
-  const renderYoutubeVideo = () => {
-    return (
-      <iframe
-        title="Pre-Wedding Dinda & Indra"
-        width="100%"
-        height="360px"
-        src="https://www.youtube.com/embed/75w39OY7N-k"
-        frameBorder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
-      ></iframe>
-    );
-  };
-
   return (
     <div id="fh5co-testimonial" className="fh5co-section-gray">
       <div className="container">
@@ -29,9 +15,6 @@ function PhotoSection() {
                 "Có một loại tình yêu khiến cho con người ta cảm thấy như đang được sống lần đầu tiên. Nó là một cảm giác tuyệt vời, khiến ta cảm thấy đầy đủ và tràn đầy năng lượng. Đó là loại tình yêu mà ta muốn dành cho người đặc biệt của mình, người ta yêu thương và trân trọng hơn bất cứ ai khác trên đời. Tình yêu là một cuộc hành trình đầy chông gai và thử thách, nhưng cũng là một cuộc phiêu lưu đáng nhớ và đáng trân trọng. Khi ta yêu một ai đó, ta đang dành tặng cho họ tình yêu, tình cảm và sự chăm sóc. Ta sẽ chia sẻ mọi thứ với họ, từ niềm vui đến nỗi buồn, từ những khoảnh khắc tuyệt vời nhất đến những thời điểm khó khăn nhất. Tình yêu là một chuyến đi không có điểm đến, nhưng điều quan trọng nhất là ta có người đồng hành cùng mình trên con đường đó. Nếu ta tìm được người đó, ta sẽ thấy tình yêu thật đẹp và ý nghĩa, và cảm thấy hạnh phúc nhất đời." <br />
               </p>
             </div>
-          </div>
-          <div className="row">
-            <div className="col-md-10 col-md-offset-1">{renderYoutubeVideo()}</div>
           </div>
           <div className="row">
             <div className="col-md-10 col-md-offset-1">

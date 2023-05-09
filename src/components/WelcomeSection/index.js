@@ -3,13 +3,12 @@ import { object, string, bool, func } from 'prop-types';
 import { Link } from 'gatsby';
 
 import WeddingImg from '@assets/images/wedding-logo.png';
-import CountContainer from './CountContainer';
 import ScrollToDown from './ScrollToDown';
 import { styWrapper, styHero, styBackground, styButtonWrapper } from './styles';
 
 const DELAY_TIME = 1500;
 
-function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, codeLink, onClickDetail }) {
+function WelcomeSection({ onClickDetail }) {
   const [loading, setLoading] = useState(false);
   const [alreadyDownloadData, setAlreadyDownloadData] = useState(false);
 
@@ -43,18 +42,6 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
       handleScrollTo();
     }
   };
-
-  const renderGuestSection = () => {
-    if (isAnonymGuest) return <h2 className="to-dearest-name">Dear Friends,</h2>;
-
-    return (
-      <Fragment>
-        <h3 className="to-dearest">To our Dearest</h3>
-        <h2 className="to-dearest-name">{guestName}</h2>
-      </Fragment>
-    );
-  };
-
   return (
     <div css={styHero}>
       <header
@@ -68,19 +55,10 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
         <div className="container">
           <div className="row" css={styWrapper}>
             <div className="col-md-8 col-md-offset-2 text-center">
-              <img src={WeddingImg} alt="wedding-dinda-indra" />
+              <img src={WeddingImg} alt="wedding-quanghuy-thuhong" />
               <h4 className="sub-title">The wedding of</h4>
               <h1 className="title">Quang Huy <br/> Thu Hồng</h1>
-              {renderGuestSection()}
-              {isInvitation && (
-                <div className="row" css={styButtonWrapper}>
-                  <div className="col-md-3">
-                    <Link to={`/e-ticket?${codeLink}`}>
-                      <button className="btn btn-default btn-block">Lihat e-Ticket</button>
-                    </Link>
-                  </div>
-                </div>
-              )}
+              <h2 className="to-dearest-name">Dear Friends,</h2>
             </div>
           </div>
           <div className="row">
@@ -93,11 +71,6 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
 }
 
 WelcomeSection.propTypes = {
-  guestName: string.isRequired,
-  isInvitation: bool.isRequired,
-  isAnonymGuest: bool.isRequired,
-  location: object.isRequired,
-  codeLink: string,
   onClickDetail: func.isRequired,
 };
 

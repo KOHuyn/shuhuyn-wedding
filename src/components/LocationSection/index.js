@@ -9,27 +9,25 @@ function LocationSection() {
         <div className="container">
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-              <h2 className="main-font">Lokasi Acara</h2>
               <p className="sub-title">
                 <a
                   href={GOOGLE_MAPS_LINK}
-                  title="Click untuk melihat peta di Google Maps"
+                  title="Click để xem bản đồ trên Google Maps                  "
                   target="_blank"
                   rel="noreferrer"
                   style={{ color: '#828282' }}
                 >
-                  <strong>HARRIS Hotel Sentraland Semarang</strong>
+                  <strong>Trung tâm tiệc cưới Giang Thanh</strong>
                 </a>{' '}
                 <br />
-                Jl. Ki Mangunsarkoro No.36, Karangkidul, Kec. Semarang Tengah, <br />
-                Kota Semarang, Jawa Tengah 50136
+                Số 1 Thiên Lôi, Đằng Giang, Ngô Quyền, TP Hải Phòng
               </p>
             </div>
           </div>
           <div className="row">
             <div className="col-md-10 col-md-offset-1">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7920.293266961091!2d110.4250066322774!3d-6.992004594949059!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708ca11d0e6f61%3A0x8c359fe27c58195d!2sHARRIS%20Hotel%20Sentraland%20Semarang!5e0!3m2!1sen!2sid!4v1590977401700!5m2!1sen!2sid"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3729.0474036284727!2d106.69545297494919!3d20.829792180770244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a71669aa314fd%3A0x8e327bd77023efc5!2zVHJ1bmcgVMOibSBUaeG7h2MgQ8aw4bubaSBHaWFuZyBUaGFuaA!5e0!3m2!1sen!2s!4v1683652611853!5m2!1sen!2s"
                 width="100%"
                 height="450"
                 frameBorder="0"
@@ -37,7 +35,7 @@ function LocationSection() {
                 allowFullScreen
                 aria-hidden="false"
                 tabIndex="0"
-                title="Google Maps - Dinda & Indra Wedding Party"
+                title="Google Maps - Quang Huy & Thu Hồng Wedding Party"
               ></iframe>
             </div>
           </div>
