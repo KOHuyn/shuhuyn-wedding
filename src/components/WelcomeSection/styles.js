@@ -162,7 +162,7 @@ export const styWrapper = css`
 
   h1 {
     margin-bottom: 0px;
-    font-size: 100px;
+    font-size: 80px;
     line-height: 1.5;
     font-family: 'Sacramento',Arial,serif;
     color: #fff;
