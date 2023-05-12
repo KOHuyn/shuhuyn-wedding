@@ -16,9 +16,9 @@ function HelloSection() {
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
               <h2 className="main-font">Hello my friend</h2>
               <p className="info">
-              Chúc bạn luôn được mạnh khỏe, hạnh phúc và thành công trong mọi lĩnh vực cuộc sống.<br/>
-              Hy vọng bạn sẽ luôn tìm thấy niềm vui và ý nghĩa trong cuộc sống của mình.<br/>
-              Xin chúc bạn một ngày mới tràn đầy năng lượng và may mắn!
+              Chúng mình rất hạnh phúc khi được thông báo tin vui, trao tấm thiệp hồng đến những người thân yêu.
+              Đây là trang web ghi lại câu chuyện tình yêu của chúng mình.
+              Cảm ơn mọi người đã ghé thăm và chúc mọi người sẽ luôn tìm thấy niềm vui trong cuộc sống!
               </p>
             </div>
           </div>
