@@ -15,7 +15,6 @@ function StorySection() {
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
               <h2 className="main-font">Love Story</h2>
-              <p className="sub-title">Một câu chuyện tình yêu kể từ lần đầu tiên chúng tôi gặp nhau</p>
             </div>
           </div>
           <div className="row">

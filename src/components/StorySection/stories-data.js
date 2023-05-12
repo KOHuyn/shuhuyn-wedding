@@ -15,7 +15,7 @@ export const stories = [
     title: 'Ngày chính thức nên duyên',
     date: '10/04/2022',
     description:
-      'Từ những trao đổi trong công việc, bọn mình dần trở nên thân thiết bởi những sở thích, thói quen chung. Tuy thời gian tiếp xúc không dài nhưng bọn mình đã nhận ra rằng đối phương chính là mảnh ghép còn thiếu của đời mình. Và rồi vào một ngày đẹp trời Huyn chính thức ngỏ lời yêu...',
+      'Từ những trao đổi trong công việc, bọn mình dần trở nên thân thiết bởi những sở thích, thói quen chung. Tuy thời gian tiếp xúc không dài nhưng bọn mình đã nhận ra rằng đối phương chính là mảnh ghép còn thiếu của đời mình. Và rồi vào một ngày đẹp trời Chàng chính thức ngỏ lời yêu...',
     image: ImgFirstDate2,
   },
   {
