@@ -28,6 +28,7 @@ function Home() {
       <Fragment>
         <HelloSection isInvitation={true} />
         <WeddingSection isInvitation={true} />
+        <LocationSection/>
         <StorySection />
         <PhotoSection />
         <FooterSection isInvitation={true} />
